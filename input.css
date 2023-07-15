@@ -1,0 +1,15 @@
+@tailwind base;
+@layer base{
+    .list a {  
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    .dropdown:hover .list {
+      display: block;
+    }
+  }
+@tailwind components;
+@tailwind utilities;
